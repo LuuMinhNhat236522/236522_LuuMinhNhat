@@ -48,3 +48,42 @@ Xây dựng ứng dụng quản lý sinh viên nhằm hỗ trợ lưu trữ, tra
 
 ## 8. Quản lý mã nguồn
 Sử dụng Git để quản lý phiên bản và GitHub để lưu trữ, chia sẻ mã nguồn dự án.
+## 3. Cấu trúc dự án
+
+```text
+236522_LuuMinhNhat/
+├── frontend/
+│   └── index.html
+├── backend/
+│   ├── package.json
+│   └── server.js
+├── .gitignore
+└── README.md
+```
+
+## 4. Yêu cầu cài đặt
+
+- Node.js và npm.
+- Trình duyệt web như Google Chrome hoặc Microsoft Edge.
+- Git và tài khoản GitHub nếu muốn tải mã nguồn về máy.
+
+## 5. Hướng dẫn chạy chương trình
+
+### Frontend
+
+Mở tệp `frontend/index.html` bằng trình duyệt web.
+
+### Backend
+
+Mở Terminal tại thư mục `backend`, sau đó chạy:
+
+```bash
+npm install
+npm start
+```
+
+Lưu ý: Backend cần có mã nguồn trong `server.js` trước khi chạy.
+
+## 6. Quản lý mã nguồn
+
+Mã nguồn được lưu trữ trên GitHub. Các thay đổi được ghi nhận thông qua commit để thuận tiện theo dõi lịch sử phát triển dự án.
